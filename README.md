@@ -50,9 +50,15 @@ One problem remains to be fixed:
 cause: foreign language
 
 
+
+
+
+
 Fun things I found just in use in one twitter account:
 
-    With account twitterapi, it has 2993 tweets. And the average of the tweeting time is 15.7685. The fun thing is after I process the frequency of the twitter time, it shows it has high actively in the afternoon than morning. 
+
+With account twitterapi, it has 2993 tweets. And the average of the tweeting time is 15.7685. The fun thing is after I process the frequency of the twitter time, it shows it has high actively in the afternoon than morning.
+
 The result show below:
 +------------------+----------+
 | Hour(created_at) | hourFreq |
@@ -83,7 +89,7 @@ The result show below:
 |               10 |        2 |
 +------------------+----------+
 
-Based on this timeline, I thought it should not be running by a group of people, just one people has very high effiency in the afternoon. 
+Based on this timeline, I thought it should be a group of people has very high effiency in the afternoon. 
 
 
 Futher things like to highlight the keywords in the tweets or find out the relationship between friends or favorites can also be extracted but with more effort.
