@@ -1,0 +1,19 @@
+>>>> Warning: Could not add Tweet: 1366 (HY000): Incorrect string value: '\xE6\x9D\xA5\xE8\x87\xAA...' for column 'text' at row 1
+     Query: INSERT INTO tweets_tweet (tweet_id, created_at, text, source, iso_language) VALUES ('448751230525775872', '2014-03-26 09:20:05', 'I scored 54396 points at 2048, a game where you join numbers to score high! #2048game http://t.co/qzL3YTbDgU 来自 @gabrielecirulli', '<a href=\"https://dev.twitter.com/docs/tfw\" rel=\"nofollow\">Twitter for Websites</a>', 'ja')
+Failed to insert tweets from HanyeWei.json.
+
+
+Extra data: line 2 column 1 - line 12 column 1 (char 1282269 - 8011689) in twitter.json
+Working on <open file '/Users/HanyeWei/Documents/RA/user-timeline-tools/config/folder//twitterapi.json', mode 'r' at 0x107fb0660> 
+
+>>>> Warning: Could not add User: 1366 (HY000): Incorrect integer value: '' for column 'followers' at row 1
+     Query: INSERT INTO users_user (twitter_id, twitter_name, fullname, followers, following, favorites, tweets, timezone) VALUES('357750891', '', '', '', '', '', '', '' )
+
+Traceback (most recent call last):
+  File "parseUserTimeline.py", line 390, in <module>
+    addUserMentions(conn, tweet)
+  File "parseUserTimeline.py", line 265, in addUserMentions
+    mention_id,
+UnboundLocalError: local variable 'mention_id' referenced before assignment
+
+
